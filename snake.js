@@ -24,6 +24,21 @@ var pixelPion = plansza.height / rozmiarWeza; // siatka w pionie
 var kierunekX = 1; // idzie plus 1 w poziomie w prawo
 var kierunekY = 0 // nie porusza sie w pionie
 
+var x = 20;
+var y = 10;
+
+
+var snake = [
+    { x: 2, y: 0 },
+    { x: 1, y: 0 },
+    { x: 0, y: 0 }
+];
+
+
+
+function kloceklokacja() {
+    var klocekX = Math.floor(Math.random() * pixelPoziom);
+    var klocekY = Math.floor(Math.random() * pixelPion);
 
 
 
